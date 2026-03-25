@@ -1,0 +1,11 @@
+{
+  "id": "land-clearing-light",
+  "name": "Light Land Clearing",
+  "category": "Land Clearing",
+  "description": "Clear brush, small trees, and undergrowth from a lot or field",
+  "lineItems": [
+    { "description": "Brush & undergrowth clearing", "type": "TIME_BASED", "defaultHours": 3.0, "usesEquipment": true },
+    { "description": "Debris pile & burn or haul", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true },
+    { "description": "Final grading pass", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true }
+  ]
+}

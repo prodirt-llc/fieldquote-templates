@@ -1,0 +1,22 @@
+[
+  { "id": "excavation-trench", "name": "Trench Excavation", "category": "Excavation" },
+  { "id": "excavation-pond", "name": "Pond / Basin Excavation", "category": "Excavation" },
+  { "id": "excavation-foundation", "name": "Foundation Dig", "category": "Excavation" },
+  { "id": "land-clearing-light", "name": "Light Land Clearing", "category": "Land Clearing" },
+  { "id": "land-clearing-heavy", "name": "Heavy Land Clearing", "category": "Land Clearing" },
+  { "id": "trail-cutting", "name": "Trail Cutting", "category": "Land Clearing" },
+  { "id": "grading-driveway", "name": "Driveway Grading", "category": "Grading" },
+  { "id": "grading-lot", "name": "Lot Grading / Rough Grade", "category": "Grading" },
+  { "id": "stump-removal-small", "name": "Stump Removal (Small, <12\")", "category": "Landscaping" },
+  { "id": "stump-removal-large", "name": "Stump Removal (Large, 12\"+)", "category": "Landscaping" },
+  { "id": "brush-clearing", "name": "Brush & Debris Clearing", "category": "Landscaping" },
+  { "id": "pressure-wash-house", "name": "Pressure Wash — House", "category": "Pressure Washing" },
+  { "id": "pressure-wash-driveway", "name": "Pressure Wash — Driveway", "category": "Pressure Washing" },
+  { "id": "pressure-wash-deck", "name": "Pressure Wash — Deck / Patio", "category": "Pressure Washing" },
+  { "id": "drainage-french-drain", "name": "French Drain Installation", "category": "Drainage" },
+  { "id": "hauling-debris", "name": "Debris Hauling", "category": "Hauling" },
+  { "id": "hauling-fill-delivery", "name": "Fill Dirt / Gravel Delivery & Spread", "category": "Hauling" },
+  { "id": "fence-post-holes", "name": "Fence Post Holes", "category": "Site Prep" },
+  { "id": "general-labor-hourly", "name": "General Labor (Hourly)", "category": "General" },
+  { "id": "general-labor-equipment", "name": "General Labor with Equipment", "category": "General" }
+]

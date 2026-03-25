@@ -1,0 +1,11 @@
+{
+  "id": "hauling-fill-delivery",
+  "name": "Fill Dirt / Gravel Delivery & Spread",
+  "category": "Hauling",
+  "description": "Deliver and spread fill dirt, topsoil, or gravel on site",
+  "lineItems": [
+    { "description": "Fill material (per yard)", "type": "MATERIAL", "defaultQuantity": 10.0, "defaultUnitCost": 25.0 },
+    { "description": "Delivery charge", "type": "FLAT_FEE", "defaultFlatAmount": 150.0 },
+    { "description": "Spread & grade material", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true }
+  ]
+}

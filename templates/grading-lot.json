@@ -1,0 +1,11 @@
+{
+  "id": "grading-lot",
+  "name": "Lot Grading / Rough Grade",
+  "category": "Grading",
+  "description": "Rough grade a lot for drainage, building, or lawn prep",
+  "lineItems": [
+    { "description": "Rough cut & bulk grading", "type": "TIME_BASED", "defaultHours": 3.0, "usesEquipment": true },
+    { "description": "Finish grade & slope for drainage", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true },
+    { "description": "Cleanup pass", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

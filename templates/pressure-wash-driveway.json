@@ -1,0 +1,11 @@
+{
+  "id": "pressure-wash-driveway",
+  "name": "Pressure Wash — Driveway",
+  "category": "Pressure Washing",
+  "description": "Pressure wash concrete or asphalt driveway including edging",
+  "lineItems": [
+    { "description": "Pre-treat stains & oil spots", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Surface wash — driveway", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Edge detail & rinse", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

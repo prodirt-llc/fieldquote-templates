@@ -1,0 +1,12 @@
+{
+  "id": "pressure-wash-deck",
+  "name": "Pressure Wash — Deck / Patio",
+  "category": "Pressure Washing",
+  "description": "Pressure wash a wood or composite deck or concrete patio",
+  "lineItems": [
+    { "description": "Clear & prep surface (move furniture)", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Deck / patio surface wash", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Railings & stairs", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": true },
+    { "description": "Rinse & dry check", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

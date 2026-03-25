@@ -1,0 +1,11 @@
+{
+  "id": "stump-removal-large",
+  "name": "Stump Removal (Large, 12\"+)",
+  "category": "Landscaping",
+  "description": "Extract or grind a large stump including root ball cleanup",
+  "lineItems": [
+    { "description": "Stump grinding / extraction", "type": "TIME_BASED", "defaultHours": 2.5, "usesEquipment": true },
+    { "description": "Root raking & cleanup", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Backfill & level hole", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

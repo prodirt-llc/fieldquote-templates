@@ -1,0 +1,9 @@
+{
+  "id": "general-labor-hourly",
+  "name": "General Labor (Hourly)",
+  "category": "General",
+  "description": "Straight hourly labor with no equipment — hand work, cleanup, assist",
+  "lineItems": [
+    { "description": "Labor", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false }
+  ]
+}

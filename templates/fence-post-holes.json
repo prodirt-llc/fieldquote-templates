@@ -1,0 +1,11 @@
+{
+  "id": "fence-post-holes",
+  "name": "Fence Post Holes",
+  "category": "Site Prep",
+  "description": "Auger or dig post holes for fence, deck, or structure",
+  "lineItems": [
+    { "description": "Post hole augering (per hole)", "type": "TIME_BASED", "defaultHours": 0.15, "usesEquipment": true },
+    { "description": "Hand cleanup & rock removal", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Concrete (per bag)", "type": "MATERIAL", "defaultQuantity": 10.0, "defaultUnitCost": 7.5 }
+  ]
+}

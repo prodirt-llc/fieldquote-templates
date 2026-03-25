@@ -1,0 +1,10 @@
+{
+  "id": "stump-removal-small",
+  "name": "Stump Removal (Small, <12\")",
+  "category": "Landscaping",
+  "description": "Grind or extract a single small stump with cleanup",
+  "lineItems": [
+    { "description": "Stump grinding / extraction", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Debris removal & backfill hole", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

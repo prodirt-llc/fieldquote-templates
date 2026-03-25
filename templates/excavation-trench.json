@@ -1,0 +1,11 @@
+{
+  "id": "excavation-trench",
+  "name": "Trench Excavation",
+  "category": "Excavation",
+  "description": "Standard utility or drainage trench with backfill and cleanup",
+  "lineItems": [
+    { "description": "Excavation — trench dig", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Backfill & compact", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Cleanup & haul spoils", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

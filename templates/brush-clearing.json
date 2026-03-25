@@ -1,0 +1,11 @@
+{
+  "id": "brush-clearing",
+  "name": "Brush & Debris Clearing",
+  "category": "Landscaping",
+  "description": "Clear overgrown brush, briars, and debris from a yard or lot",
+  "lineItems": [
+    { "description": "Brush cutting & clearing", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Debris pile & haul", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Final hand cleanup", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "general-labor-equipment",
+  "name": "General Labor with Equipment",
+  "category": "General",
+  "description": "Hourly labor with equipment — use for misc machine work that doesn't fit another template",
+  "lineItems": [
+    { "description": "Labor & equipment", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "land-clearing-heavy",
+  "name": "Heavy Land Clearing",
+  "category": "Land Clearing",
+  "description": "Full clearing with mature trees, stumps, and root removal",
+  "lineItems": [
+    { "description": "Tree felling & limbing", "type": "TIME_BASED", "defaultHours": 4.0, "usesEquipment": true },
+    { "description": "Stump grinding / extraction", "type": "TIME_BASED", "defaultHours": 3.0, "usesEquipment": true },
+    { "description": "Root raking & grubbing", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Debris haul & disposal", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Final grade", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true }
+  ]
+}

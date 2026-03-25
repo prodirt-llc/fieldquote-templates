@@ -1,0 +1,12 @@
+{
+  "id": "excavation-pond",
+  "name": "Pond / Basin Excavation",
+  "category": "Excavation",
+  "description": "Dig and shape a small pond or retention basin",
+  "lineItems": [
+    { "description": "Bulk excavation", "type": "TIME_BASED", "defaultHours": 6.0, "usesEquipment": true },
+    { "description": "Shaping & grading banks", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Spoil hauling & disposal", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Final cleanup", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

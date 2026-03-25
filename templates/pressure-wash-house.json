@@ -1,0 +1,12 @@
+{
+  "id": "pressure-wash-house",
+  "name": "Pressure Wash — House",
+  "category": "Pressure Washing",
+  "description": "Full exterior house wash including siding, eaves, and gutters",
+  "lineItems": [
+    { "description": "Setup & prep (cover landscaping, wet surfaces)", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Pressure wash exterior siding", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Eaves, soffits & gutters", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": true },
+    { "description": "Rinse & cleanup", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}

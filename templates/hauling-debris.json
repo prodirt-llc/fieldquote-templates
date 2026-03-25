@@ -1,0 +1,11 @@
+{
+  "id": "hauling-debris",
+  "name": "Debris Hauling",
+  "category": "Hauling",
+  "description": "Load and haul debris, brush, or demolition material from site",
+  "lineItems": [
+    { "description": "Loading — machine or hand", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Haul & dump (per load)", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Dump fee", "type": "FLAT_FEE", "defaultFlatAmount": 75.0 }
+  ]
+}

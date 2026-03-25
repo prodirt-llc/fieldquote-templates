@@ -1,0 +1,11 @@
+{
+  "id": "excavation-foundation",
+  "name": "Foundation Dig",
+  "category": "Excavation",
+  "description": "Excavate for a building foundation or footer",
+  "lineItems": [
+    { "description": "Foundation excavation", "type": "TIME_BASED", "defaultHours": 4.0, "usesEquipment": true },
+    { "description": "Hand work & cleanup around edges", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": false },
+    { "description": "Spoil removal & haul", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "drainage-french-drain",
+  "name": "French Drain Installation",
+  "category": "Drainage",
+  "description": "Trench, install perforated pipe with gravel and fabric wrap for subsurface drainage",
+  "lineItems": [
+    { "description": "Trench excavation", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Landscape fabric lining", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Gravel bed — base layer", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 45.0 },
+    { "description": "Perforated drain pipe (per linear ft)", "type": "MATERIAL", "defaultQuantity": 50.0, "defaultUnitCost": 1.5 },
+    { "description": "Gravel cover & fabric wrap", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Backfill & grade", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true }
+  ]
+}

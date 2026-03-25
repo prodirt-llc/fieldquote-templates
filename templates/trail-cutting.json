@@ -1,0 +1,11 @@
+{
+  "id": "trail-cutting",
+  "name": "Trail Cutting",
+  "category": "Land Clearing",
+  "description": "Cut and clear a walking or ATV trail through wooded or brushy terrain",
+  "lineItems": [
+    { "description": "Brush & tree clearing along path", "type": "TIME_BASED", "defaultHours": 3.0, "usesEquipment": true },
+    { "description": "Root grubbing & rough grade", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true },
+    { "description": "Debris removal", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false }
+  ]
+}

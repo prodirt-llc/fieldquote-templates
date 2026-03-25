@@ -1,0 +1,11 @@
+{
+  "id": "grading-driveway",
+  "name": "Driveway Grading",
+  "category": "Grading",
+  "description": "Grade and shape an existing or new gravel driveway",
+  "lineItems": [
+    { "description": "Motor grading / blade work", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": true },
+    { "description": "Compaction pass", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": true },
+    { "description": "Edge cleanup", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false }
+  ]
+}
