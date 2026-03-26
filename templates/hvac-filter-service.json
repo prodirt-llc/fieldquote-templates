@@ -1,0 +1,12 @@
+{
+  "id": "hvac-filter-service",
+  "name": "HVAC Filter & Basic Service",
+  "category": "HVAC",
+  "description": "Replace filter, inspect unit, clean accessible components",
+  "lineItems": [
+    { "description": "Filter replacement", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Filter (standard 1\")", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 15.0 },
+    { "description": "Inspect & clean accessible components", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Check drain line & pan", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

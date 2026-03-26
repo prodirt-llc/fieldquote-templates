@@ -1,0 +1,15 @@
+{
+  "id": "carpentry-deck-build",
+  "name": "Deck Construction",
+  "category": "Carpentry",
+  "description": "Build a ground-level or elevated wood or composite deck",
+  "lineItems": [
+    { "description": "Layout & footings", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Frame & ledger board", "type": "TIME_BASED", "defaultHours": 4.0, "usesEquipment": false },
+    { "description": "Decking installation", "type": "TIME_BASED", "defaultHours": 4.0, "usesEquipment": false },
+    { "description": "Railing & stairs", "type": "TIME_BASED", "defaultHours": 3.0, "usesEquipment": false },
+    { "description": "Lumber — framing (per LF)", "type": "MATERIAL", "defaultQuantity": 100.0, "defaultUnitCost": 3.5 },
+    { "description": "Decking boards (per SF)", "type": "MATERIAL", "defaultQuantity": 200.0, "defaultUnitCost": 4.0 },
+    { "description": "Hardware, fasteners & concrete", "type": "FLAT_FEE", "defaultFlatAmount": 150.0 }
+  ]
+}

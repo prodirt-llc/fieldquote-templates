@@ -1,0 +1,15 @@
+{
+  "id": "painting-exterior-house",
+  "name": "Exterior House Paint",
+  "category": "Painting",
+  "description": "Prep and paint exterior siding, trim, and fascia",
+  "lineItems": [
+    { "description": "Power wash & prep surfaces", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": true },
+    { "description": "Caulk, scrape & spot prime", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false },
+    { "description": "Paint siding (2 coats)", "type": "TIME_BASED", "defaultHours": 6.0, "usesEquipment": false },
+    { "description": "Paint trim & fascia", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false },
+    { "description": "Exterior paint (per gallon)", "type": "MATERIAL", "defaultQuantity": 5.0, "defaultUnitCost": 55.0 },
+    { "description": "Trim paint (per gallon)", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 50.0 },
+    { "description": "Supplies (tape, caulk, brushes)", "type": "FLAT_FEE", "defaultFlatAmount": 60.0 }
+  ]
+}

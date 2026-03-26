@@ -1,0 +1,12 @@
+{
+  "id": "plumbing-faucet-replace",
+  "name": "Faucet Replacement",
+  "category": "Plumbing",
+  "description": "Remove and replace a standard sink or tub faucet",
+  "lineItems": [
+    { "description": "Remove existing faucet", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Install new faucet", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false },
+    { "description": "Supply lines & shutoff valves", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 25.0 },
+    { "description": "Test & inspect for leaks", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

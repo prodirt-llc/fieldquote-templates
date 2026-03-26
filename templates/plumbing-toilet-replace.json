@@ -1,0 +1,13 @@
+{
+  "id": "plumbing-toilet-replace",
+  "name": "Toilet Replacement",
+  "category": "Plumbing",
+  "description": "Remove old toilet and install new unit",
+  "lineItems": [
+    { "description": "Remove & haul old toilet", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Install new toilet", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false },
+    { "description": "Wax ring & hardware kit", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 20.0 },
+    { "description": "Supply line & shutoff", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 15.0 },
+    { "description": "Test & inspect", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

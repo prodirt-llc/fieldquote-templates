@@ -1,0 +1,12 @@
+{
+  "id": "electrical-light-fixture",
+  "name": "Light Fixture Installation",
+  "category": "Electrical",
+  "description": "Remove old and install new ceiling or wall light fixture",
+  "lineItems": [
+    { "description": "Remove old fixture", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Install new fixture", "type": "TIME_BASED", "defaultHours": 0.75, "usesEquipment": false },
+    { "description": "Wire nuts & hardware", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 8.0 },
+    { "description": "Test", "type": "TIME_BASED", "defaultHours": 0.1, "usesEquipment": false }
+  ]
+}

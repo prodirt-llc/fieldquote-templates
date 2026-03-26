@@ -1,0 +1,13 @@
+{
+  "id": "carpentry-door-install",
+  "name": "Door Installation",
+  "category": "Carpentry",
+  "description": "Install a pre-hung interior or exterior door including hardware",
+  "lineItems": [
+    { "description": "Remove old door & frame", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Prep & level rough opening", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Install pre-hung door", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false },
+    { "description": "Install trim & casing", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false },
+    { "description": "Hardware & fasteners", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 20.0 }
+  ]
+}

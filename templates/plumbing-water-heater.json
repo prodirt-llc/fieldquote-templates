@@ -1,0 +1,14 @@
+{
+  "id": "plumbing-water-heater",
+  "name": "Water Heater Replacement",
+  "category": "Plumbing",
+  "description": "Remove old water heater and install new tank unit",
+  "lineItems": [
+    { "description": "Drain & disconnect old unit", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Haul away old unit", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Install new water heater", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false },
+    { "description": "Pipe fittings & connections", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 35.0 },
+    { "description": "Expansion tank (if required)", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 45.0 },
+    { "description": "Test & inspect", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

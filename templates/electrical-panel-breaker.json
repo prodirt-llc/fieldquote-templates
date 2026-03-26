@@ -1,0 +1,12 @@
+{
+  "id": "electrical-panel-breaker",
+  "name": "Breaker Replacement",
+  "category": "Electrical",
+  "description": "Replace a single circuit breaker in an existing panel",
+  "lineItems": [
+    { "description": "Identify & isolate circuit", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Replace breaker", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Replacement breaker", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 25.0 },
+    { "description": "Test & label", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false }
+  ]
+}

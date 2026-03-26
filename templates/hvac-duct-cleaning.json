@@ -1,0 +1,12 @@
+{
+  "id": "hvac-duct-cleaning",
+  "name": "Duct Cleaning",
+  "category": "HVAC",
+  "description": "Clean supply and return air ducts throughout the home",
+  "lineItems": [
+    { "description": "Setup & access point prep", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Duct cleaning — per vent", "type": "TIME_BASED", "defaultHours": 0.2, "usesEquipment": true },
+    { "description": "Main trunk line cleaning", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": true },
+    { "description": "Sanitizer treatment (optional)", "type": "FLAT_FEE", "defaultFlatAmount": 75.0 }
+  ]
+}

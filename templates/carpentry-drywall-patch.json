@@ -1,0 +1,13 @@
+{
+  "id": "carpentry-drywall-patch",
+  "name": "Drywall Patch & Repair",
+  "category": "Carpentry",
+  "description": "Patch holes or damaged sections of drywall, tape, mud, and sand",
+  "lineItems": [
+    { "description": "Cut out & prep damaged area", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Install backer & patch", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Tape, mud & feather (3 coats)", "type": "TIME_BASED", "defaultHours": 1.5, "usesEquipment": false },
+    { "description": "Sand & prime", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Drywall patch & joint compound", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 20.0 }
+  ]
+}

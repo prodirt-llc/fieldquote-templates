@@ -18,5 +18,18 @@
   { "id": "hauling-fill-delivery", "name": "Fill Dirt / Gravel Delivery & Spread", "category": "Hauling" },
   { "id": "fence-post-holes", "name": "Fence Post Holes", "category": "Site Prep" },
   { "id": "general-labor-hourly", "name": "General Labor (Hourly)", "category": "General" },
-  { "id": "general-labor-equipment", "name": "General Labor with Equipment", "category": "General" }
+  { "id": "general-labor-equipment", "name": "General Labor with Equipment", "category": "General" },
+  { "id": "plumbing-faucet-replace", "name": "Faucet Replacement", "category": "Plumbing" },
+  { "id": "plumbing-toilet-replace", "name": "Toilet Replacement", "category": "Plumbing" },
+  { "id": "plumbing-water-heater", "name": "Water Heater Replacement", "category": "Plumbing" },
+  { "id": "electrical-outlet-replace", "name": "Outlet / Switch Replacement", "category": "Electrical" },
+  { "id": "electrical-panel-breaker", "name": "Breaker Replacement", "category": "Electrical" },
+  { "id": "electrical-light-fixture", "name": "Light Fixture Installation", "category": "Electrical" },
+  { "id": "hvac-filter-service", "name": "HVAC Filter & Basic Service", "category": "HVAC" },
+  { "id": "hvac-duct-cleaning", "name": "Duct Cleaning", "category": "HVAC" },
+  { "id": "painting-interior-room", "name": "Interior Room Paint", "category": "Painting" },
+  { "id": "painting-exterior-house", "name": "Exterior House Paint", "category": "Painting" },
+  { "id": "carpentry-door-install", "name": "Door Installation", "category": "Carpentry" },
+  { "id": "carpentry-deck-build", "name": "Deck Construction", "category": "Carpentry" },
+  { "id": "carpentry-drywall-patch", "name": "Drywall Patch & Repair", "category": "Carpentry" }
 ]

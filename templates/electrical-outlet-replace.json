@@ -1,0 +1,12 @@
+{
+  "id": "electrical-outlet-replace",
+  "name": "Outlet / Switch Replacement",
+  "category": "Electrical",
+  "description": "Replace a standard wall outlet or light switch",
+  "lineItems": [
+    { "description": "Remove old outlet / switch", "type": "TIME_BASED", "defaultHours": 0.25, "usesEquipment": false },
+    { "description": "Install new outlet / switch", "type": "TIME_BASED", "defaultHours": 0.5, "usesEquipment": false },
+    { "description": "Outlet / switch & wall plate", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 12.0 },
+    { "description": "Test", "type": "TIME_BASED", "defaultHours": 0.1, "usesEquipment": false }
+  ]
+}

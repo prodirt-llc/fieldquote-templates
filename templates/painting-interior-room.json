@@ -1,0 +1,14 @@
+{
+  "id": "painting-interior-room",
+  "name": "Interior Room Paint",
+  "category": "Painting",
+  "description": "Prep, prime if needed, and paint walls and ceiling in a single room",
+  "lineItems": [
+    { "description": "Prep — tape, drop cloths, fill holes", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false },
+    { "description": "Paint walls (2 coats)", "type": "TIME_BASED", "defaultHours": 2.0, "usesEquipment": false },
+    { "description": "Paint ceiling (1 coat)", "type": "TIME_BASED", "defaultHours": 1.0, "usesEquipment": false },
+    { "description": "Paint — wall (per gallon)", "type": "MATERIAL", "defaultQuantity": 2.0, "defaultUnitCost": 45.0 },
+    { "description": "Paint — ceiling (per gallon)", "type": "MATERIAL", "defaultQuantity": 1.0, "defaultUnitCost": 35.0 },
+    { "description": "Supplies (tape, roller covers, brushes)", "type": "FLAT_FEE", "defaultFlatAmount": 25.0 }
+  ]
+}
